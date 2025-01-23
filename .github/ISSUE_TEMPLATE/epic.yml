@@ -27,11 +27,11 @@ body:
         ### Todo
 
   - type: textarea
-      id: mockup
-      attributes:
-        label: Mock-ups
-        description: PLEASE DO YOUR BEST TO FIND MOCK-UPS
-        value: |
+    id: mockups
+    attributes:
+      label: Mockups
+      description: Please do your best to find mock-ups...
+      value: |
         Copy/past images or add files here
 
   - type: textarea
