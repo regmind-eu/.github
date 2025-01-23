@@ -1,7 +1,7 @@
 name: EPIC
 description: Whole detailed feature which contains subdivisions of features. Should not be referenced in commits as we should work on child issues.
 title: ""
-issue_type: "Epic"
+labels: ["Epic"]
 body:
   - type: markdown
     attributes:
