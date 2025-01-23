@@ -31,7 +31,8 @@ body:
       attributes:
         label: Mock-ups
         description: PLEASE DO YOUR BEST TO FIND MOCK-UPS
-        value: Copy/past images or add files here
+        value: |
+        Copy/past images or add files here
 
   - type: textarea
       id: successconditions
