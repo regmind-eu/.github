@@ -5,4 +5,4 @@ issue_templates:
     labels: ["epic"]
     assignees: []
     description: Whole detailled feature which contain subdivision of features. Should not be referenced in commits as we should work on childs.
-    body: epic.md
+    body: epic.yaml
