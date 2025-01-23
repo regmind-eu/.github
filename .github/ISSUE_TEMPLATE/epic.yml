@@ -1,30 +1,47 @@
 name: EPIC
 description: Whole detailed feature which contains subdivisions of features. Should not be referenced in commits as we should work on child issues.
-title: "[EPIC] Titre de l'EPIC"
-labels: ["epic"]
+title: ""
+issue_type: "Epic"
 body:
   - type: markdown
     attributes:
       value: |
-        ## Description
-        Décrivez l'objectif de cette EPIC.
+        _____
+        > THE EPIC IS THE SOURCE OF TRUTH
 
+        > GIVE DETAILS ABOUT THE UNDERLYING FEATURE AS MUCH AS POSSIBLE
+        ___
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Décrivez l'objectif de cette EPIC.
-      placeholder: Décrivez l'objectif de cette EPIC.
+      description: What's the context? What's the motivations? What's the current bahavior? What has to be changed?
       value: |
-        ## Description
-        Décrivez l'objectif de cette EPIC.
+        ### Context
 
-  - type: checkboxes
-    id: tasks
+        ### Why?
+
+        ### Current behavior
+
+        ### Todo
+- type: textarea
+    id: mockups
     attributes:
-      label: Tâches
-      description: Liste des tâches à accomplir.
-      options:
-        - label: Tâche 1
-        - label: Tâche 2
-        - label: Tâche 3
+      label: Mock-ups
+      description: PLEASE DO YOUR BEST TO FIND MOCK-UPS
+      placeholder: Copy/past images or add files here
+
+  - type: textarea
+    id: successconditions
+    attributes:
+      label: Success conditions
+      description: THINK ABOUT GENERIC SUCCESS CONDITIONS (that could be moved later to sub-issues)
+       value: |
+        - [ ] As a user...
+        - [ ] As an admintrator...
+      
+- type: textarea
+    id: tech
+    attributes:
+      label: Technical constraints
+      description: LIST TECHNICAL CONSTRAINTS THAT SHOULD BE RESPECTED IF EXIST

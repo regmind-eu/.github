@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 issue_templates:
   - name: EPIC
-    title: "[EPIC] Titre de l'EPIC"
-    labels: ["epic"]
-    assignees: []
     description: Whole detailled feature which contain subdivision of features. Should not be referenced in commits as we should work on childs.
     body: epic.yaml
