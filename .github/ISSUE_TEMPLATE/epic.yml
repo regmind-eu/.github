@@ -55,4 +55,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        ** Please don't forget to choose Epic as issue type ** 
+        > ⚠️ **Please don't forget to choose Epic as issue type** 
