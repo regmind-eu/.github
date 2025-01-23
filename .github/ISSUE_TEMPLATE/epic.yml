@@ -31,5 +31,19 @@ body:
       attributes:
         label: Mock-ups
         description: PLEASE DO YOUR BEST TO FIND MOCK-UPS
-        placeholder: Copy/past images or add files here
+        value: Copy/past images or add files here
 
+  - type: textarea
+      id: successconditions
+      attributes:
+        label: Success conditions
+        description: THINK ABOUT GENERIC SUCCESS CONDITIONS (that could be moved later to sub-issues)
+        value: |
+          - [ ] As a user...
+          - [ ] As an admintrator...
+        
+  - type: textarea
+      id: tech
+      attributes:
+        label: Technical constraints
+        description: LIST TECHNICAL CONSTRAINTS THAT SHOULD BE RESPECTED IF EXIST
