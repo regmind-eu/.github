@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-issue_templates:
-  - name: EPIC
-    description: Whole detailled feature which contain subdivision of features. Should not be referenced in commits as we should work on childs.
-    body: ISSUE_TEMPLATE/epic.md
