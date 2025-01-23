@@ -18,7 +18,7 @@ body:
     attributes:
       label: Description
       description: What's the context? What's the motivations? What's the current bahavior? What has to be changed?
-      value: |
+      placeholder: |
         ### Context
 
         ### Why?
