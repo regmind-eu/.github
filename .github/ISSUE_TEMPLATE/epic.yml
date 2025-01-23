@@ -7,9 +7,9 @@ body:
     attributes:
       value: |
         _____
-        > The epic is the source of truth
+        The epic is the source of truth
 
-        > Please give details about the underlying feature AS MUCH AS POSSIBLE and sub-divide into small issues linked to this one
+        Please give details about the underlying feature AS MUCH AS POSSIBLE and sub-divide into small issues linked to this one
         ___
 
   - type: textarea
@@ -48,4 +48,7 @@ body:
     attributes:
       label: Technical constraints
       description: Technical constraints that should be respected
+      placeholder: |
+          - [ ] ...
+          - [ ] ...
         
