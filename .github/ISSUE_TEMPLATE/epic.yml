@@ -2,6 +2,7 @@ name: EPIC
 description: Whole detailed feature which contains subdivisions of features. Should not be referenced in commits as we should work on child issues.
 title: ""
 labels: ["Epic"]
+#issue_type: "Epic"
 body:
   - type: markdown
     attributes:
@@ -11,6 +12,7 @@ body:
 
         > GIVE DETAILS ABOUT THE UNDERLYING FEATURE AS MUCH AS POSSIBLE
         ___
+
   - type: textarea
     id: description
     attributes:
@@ -24,6 +26,7 @@ body:
         ### Current behavior
 
         ### Todo
+
 - type: textarea
     id: mockups
     attributes:
@@ -31,7 +34,7 @@ body:
       description: PLEASE DO YOUR BEST TO FIND MOCK-UPS
       placeholder: Copy/past images or add files here
 
-  - type: textarea
+- type: textarea
     id: successconditions
     attributes:
       label: Success conditions
