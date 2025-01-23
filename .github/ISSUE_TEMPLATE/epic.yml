@@ -7,7 +7,7 @@ body:
       value: |
         ⚠️ The epic is the **source of truth** !
 
-        Please give details about the underlying feature AS MUCH AS POSSIBLE and sub-divide into small issues linked to this one.
+        Please give details about the underlying feature **AS MUCH AS POSSIBLE** and **sub-divide into small issues** linked to this one.
         ___
 
   - type: textarea
@@ -58,7 +58,7 @@ body:
     attributes:
       value: |
         ______
-        > ⚠️⚠️⚠️ **Please don't forget to choose Epic as issue type**
+        > ⚠️ ⚠️ **Please don't forget to choose Epic as issue type** ⚠️ ⚠️
         ______
 
 
