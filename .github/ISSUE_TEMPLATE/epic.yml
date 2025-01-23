@@ -7,9 +7,9 @@ body:
     attributes:
       value: |
         _____
-        > THE EPIC IS THE SOURCE OF TRUTH
+        > The epic is the source of truth
 
-        > GIVE DETAILS ABOUT THE UNDERLYING FEATURE AS MUCH AS POSSIBLE
+        > Please give details about the underlying feature AS MUCH AS POSSIBLE and sub-divide into small issues linked to this one
         ___
 
   - type: textarea
@@ -17,7 +17,7 @@ body:
     attributes:
       label: Description
       description: What's the context? What's the motivations? What's the current bahavior? What has to be changed?
-      value: |
+      placeholder: |
         ### Context
 
         ### Why?
@@ -31,7 +31,7 @@ body:
     attributes:
       label: Mockups
       description: Please do your best to find mock-ups...
-      value: |
+      placeholder: |
         Copy/past images or add files here
 
   - type: textarea
@@ -39,7 +39,7 @@ body:
     attributes:
       label: Success conditions
       description: Generic success conditions (could be moved to sub-issues later)
-      value: |
+      placeholder: |
           - [ ] As a user...
           - [ ] As an admintrator...
 
