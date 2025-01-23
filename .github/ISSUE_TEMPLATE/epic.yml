@@ -43,9 +43,9 @@ body:
           - [ ] As a user...
           - [ ] As an admintrator...
 
-        
   - type: textarea
-      id: tech
-      attributes:
-        label: Technical constraints
-        description: LIST TECHNICAL CONSTRAINTS THAT SHOULD BE RESPECTED IF EXIST
+    id: tech
+    attributes:
+      label: Technical constraints
+      description: Technical constraints that should be respected
+        
