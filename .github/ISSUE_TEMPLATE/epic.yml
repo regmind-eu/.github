@@ -27,7 +27,7 @@ body:
         ### Todo
 
   - type: textarea
-      id: mockups
+      id: mockup
       attributes:
         label: Mock-ups
         description: PLEASE DO YOUR BEST TO FIND MOCK-UPS
