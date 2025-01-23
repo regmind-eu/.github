@@ -35,13 +35,14 @@ body:
         Copy/past images or add files here
 
   - type: textarea
-      id: successconditions
-      attributes:
-        label: Success conditions
-        description: THINK ABOUT GENERIC SUCCESS CONDITIONS (that could be moved later to sub-issues)
-        value: |
+    id: successconditions
+    attributes:
+      label: Success conditions
+      description: Generic success conditions (could be moved to sub-issues later)
+      value: |
           - [ ] As a user...
           - [ ] As an admintrator...
+
         
   - type: textarea
       id: tech
