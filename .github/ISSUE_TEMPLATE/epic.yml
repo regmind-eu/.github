@@ -5,7 +5,6 @@ body:
   - type: markdown
     attributes:
       value: |
-
       
         ⚠️ The epic is the **source of truth** !
 
@@ -19,7 +18,7 @@ body:
     attributes:
       label: Description
       description: What's the context? What's the motivations? What's the current bahavior? What has to be changed?
-      placeholder: |
+      value: |
         ### Context
 
         ### Why?
