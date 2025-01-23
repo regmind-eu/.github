@@ -1,6 +1,5 @@
 name: EPIC
 description: Whole detailed feature which contains subdivisions of features. Should not be referenced in commits as we should work on child issues.
-title: ""
 labels: ["Epic"]
 #issue_type: "Epic"
 body:
@@ -12,3 +11,19 @@ body:
 
         > GIVE DETAILS ABOUT THE UNDERLYING FEATURE AS MUCH AS POSSIBLE
         ___
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's the context? What's the motivations? What's the current bahavior? What has to be changed?
+      value: |
+        ### Context
+
+        ### Why?
+
+        ### Current behavior
+
+        ### Todo
+
+  
