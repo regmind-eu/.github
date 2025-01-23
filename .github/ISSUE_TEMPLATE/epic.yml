@@ -28,6 +28,16 @@ body:
         ### Todo
 
   - type: textarea
+    id: questions
+    attributes:
+      label: Remaining questions
+      description: If any question is pending...
+      placeholder: |
+        - [ ] Question 1
+        - [ ] Question 2
+        - ...
+
+  - type: textarea
     id: mockups
     attributes:
       label: Mockups
