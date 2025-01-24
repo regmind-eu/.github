@@ -1,0 +1,25 @@
+name: Patch
+description: Something to fast patch in production
+labels: ["Patch"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+      
+        ⚠️ Please, brief explain of what has to be test once the patch deployed
+
+        ___
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+
+  - type: markdown
+    attributes:
+      value: |
+        ______
+        > ⚠️ ⚠️ **Please don't forget to choose "Bug" as issue type** ⚠️ ⚠️
+        ______
