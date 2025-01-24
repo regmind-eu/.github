@@ -1,11 +1,10 @@
 name: Trigger Auto-Fill PR
 
 on:
-  pull_request:
-    types: [opened]
+  workflow_dispatch:
 
 jobs:
-  call-devops-workflow:
+  trigger-devops-workflow:
     uses: regmind-eu/devops/.github/workflows/pr-autofill.yml@main
     with:
       repo_name: ${{ github.repository }}
