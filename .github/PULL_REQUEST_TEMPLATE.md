@@ -1,4 +1,4 @@
 ____
-⚠️ ⚠️ PLEASE, DON'T FORGET TO SET ISSUE_ID HERE AFTER "#" (**[REPO_NAME]** will be auto replaced) ⚠️⚠️
+⚠️ ⚠️ PLEASE, DON'T FORGET TO REPLACE **[REPO_NAME]** & SET **ISSUE_ID** AFTER "#" HERE ⚠️ ⚠️
 ____
 Fixes regmind-eu/[REPO_NAME]#

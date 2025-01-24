@@ -1,0 +1,55 @@
+name: Issue
+about: An issue (Task, Bug, Feature) or a sub-issue.
+body:
+  - type: markdown
+    attributes:
+      value: |
+      
+        ⚠️ Please take time to well explain the issue as it's a **source of truth** of what will be developped!
+
+        Reminder: Issue larger than "M" should be sub-divided **into small issues** linked to this one as parent.
+        ___
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+  
+  - type: textarea
+      id: questions
+      attributes:
+        label: Remaining questions
+        description: If any question is pending...
+        placeholder: |
+          - [ ] Question 1
+          - [ ] Question 2
+          - ...
+
+  - type: textarea
+    id: successconditions
+    validations:
+      required: true
+    attributes:
+      label: Success conditions
+      description: Generic success conditions (could be moved to sub-issues later)
+      placeholder: |
+          - [ ] As a user...
+          - [ ] As an admintrator...
+
+  - type: textarea
+      id: tech
+      attributes:
+        label: Technical constraints
+        description: Technical constraints that should be respected
+        placeholder: |
+            - [ ] ...
+            - [ ] ...
+      
+  - type: markdown
+    attributes:
+      value: |
+        ______
+        > ⚠️ ⚠️ **Please don't forget to choose an issue type other then "Epic"** ⚠️ ⚠️
+        ______
