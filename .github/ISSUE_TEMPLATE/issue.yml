@@ -39,14 +39,14 @@ body:
           - [ ] As an admintrator...
 
   - type: textarea
-      id: tech
-      attributes:
-        label: Technical constraints
-        description: Technical constraints that should be respected
-        placeholder: |
-            - [ ] ...
-            - [ ] ...
-      
+    id: tech
+    attributes:
+      label: Technical constraints
+      description: Technical constraints that should be respected
+      placeholder: |
+          - [ ] ...
+          - [ ] ...
+
   - type: markdown
     attributes:
       value: |
