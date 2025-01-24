@@ -17,7 +17,7 @@ body:
     attributes:
       label: Description
   - type: textarea
-      id: questions
+      id: remaining
       attributes:
         label: Remaining questions
         description: If any question is pending...
