@@ -16,7 +16,6 @@ body:
       required: true
     attributes:
       label: Description
-  
   - type: textarea
       id: questions
       attributes:
@@ -26,7 +25,7 @@ body:
           - [ ] Question 1
           - [ ] Question 2
           - ...
-
+  
   - type: textarea
     id: successconditions
     validations:
