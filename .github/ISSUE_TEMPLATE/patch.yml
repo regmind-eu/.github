@@ -4,11 +4,11 @@ labels: ["Patch"]
 body:
   - type: textarea
     id: description
-    description:  ⚠️ Please, brief explain of what has to be test once the patch deployed
     validations:
       required: true
     attributes:
       label: Description
+      description:  ⚠️ Please, brief explain of what has to be test once the patch deployed
 
   - type: markdown
     attributes:
