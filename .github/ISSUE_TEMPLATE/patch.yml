@@ -2,16 +2,9 @@ name: Patch
 description: Something to fast patch in production
 labels: ["Patch"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-      
-        ⚠️ Please, brief explain of what has to be test once the patch deployed
-
-        ___
-
   - type: textarea
     id: description
+    description:  ⚠️ Please, brief explain of what has to be test once the patch deployed
     validations:
       required: true
     attributes:

@@ -4,10 +4,10 @@ body:
   - type: markdown
     attributes:
       value: |
-      
+        ___
         ⚠️ Please take time to well explain the issue as it's a **source of truth** of what will be developped!
 
-        Reminder: Issue larger than "M" should be sub-divided **into small issues** linked to this one as parent.
+        ⚠️ **Reminder: Issue larger than "M" should be sub-divided **into small issues** linked to this one as parent.**
         ___
 
   - type: textarea
