@@ -1,5 +1,5 @@
 name: Issue
-about: An issue (Task, Bug, Feature) or a sub-issue.
+description: An issue (Task, Bug, Feature) or a sub-issue.
 body:
   - type: markdown
     attributes:
