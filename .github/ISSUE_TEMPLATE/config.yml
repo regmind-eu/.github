@@ -3,7 +3,6 @@ issue_templates:
   - name: Epic
     description: Whole detailled feature which contain subdivision of features. Should not be referenced in commits as we should work on childs.
     body: epic.yml
-issue_templates:
   - name: Issue
     description: Task, Bug, Feature...
     body: issue.yml
