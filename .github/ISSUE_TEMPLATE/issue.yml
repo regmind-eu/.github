@@ -1,6 +1,16 @@
 name: Issue
 description: An issue (Task, Bug, Feature) or a sub-issue.
 body:
+  - type: textarea
+    id: dependencies
+    validations:
+      required: false
+    attributes:
+      label: Dependencies
+    placeholder: |
+      - [ ] regmind-eu/...#
+      - [ ] regmind-eu/...#
+      - ...
   - type: markdown
     attributes:
       value: |
