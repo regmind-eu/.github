@@ -7,10 +7,11 @@ body:
       required: false
     attributes:
       label: Dependencies
-    placeholder: |
-      - [ ] regmind-eu/...#
-      - [ ] regmind-eu/...#
-      - ...
+      description: List other issues that should be done before
+      placeholder: |
+        - [ ] regmind-eu/...#
+        - [ ] regmind-eu/...#
+        - ...
   - type: markdown
     attributes:
       value: |
