@@ -41,7 +41,7 @@ body:
   - type: textarea
     id: successconditions
     validations:
-      required: true
+      required: false
     attributes:
       label: Success conditions
       description: Generic success conditions (could be moved to sub-issues later)
@@ -62,5 +62,5 @@ body:
     attributes:
       value: |
         ______
-        > ⚠️ ⚠️ **Please don't forget to choose an issue type other than "Epic"** ⚠️ ⚠️
+        > ⚠️ ⚠️ **Please don't forget to **choose an issue type** (not Epic) ⚠️ ⚠️
         ______
