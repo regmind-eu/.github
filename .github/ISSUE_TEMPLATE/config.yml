@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 issue_templates:
+  - name: Request
+    description: Customer success request.
+    body: request.yml
   - name: Tech Issue
     description: Task, Bug, Feature...
     body: issue.yml
@@ -9,6 +12,3 @@ issue_templates:
   - name: Tech Epic
     description: Whole detailled feature which contain subdivision of features. Should not be referenced in commits as we should work on childs.
     body: epic.yml
-  - name: Request
-    description: Customer success request.
-    body: request.yml
