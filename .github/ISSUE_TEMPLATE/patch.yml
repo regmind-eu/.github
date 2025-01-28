@@ -1,4 +1,4 @@
-name: Tech Patch
+name: Patch
 description: Something to fast patch in production
 labels: ["Patch"]
 body:

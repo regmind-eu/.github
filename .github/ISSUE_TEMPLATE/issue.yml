@@ -1,4 +1,4 @@
-name: Tech Issue
+name: Issue
 description: An issue (Task, Bug, Feature) or a sub-issue.
 body:
   - type: textarea
