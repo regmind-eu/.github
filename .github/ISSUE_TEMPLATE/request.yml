@@ -1,0 +1,17 @@
+name: Request
+description: Customer success request
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description:  ⚠️ ⚠️ Please take time to well explain the issue as it's a **source of truth** of what will be developped!
+
+  - type: markdown
+    attributes:
+      value: |
+        ______
+        > ⚠️ ⚠️ **Please don't forget to choose "Request" as issue type** ⚠️ ⚠️
+        ______

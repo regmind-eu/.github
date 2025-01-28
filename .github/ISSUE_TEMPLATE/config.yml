@@ -1,11 +1,14 @@
 blank_issues_enabled: false
 issue_templates:
-  - name: Issue
+  - name: Tech Issue
     description: Task, Bug, Feature...
     body: issue.yml
-  - name: Patch
+  - name: Tech Patch
     description: Something to fast patch in production
     body: patch.yml
-  - name: Epic
+  - name: Tech Epic
     description: Whole detailled feature which contain subdivision of features. Should not be referenced in commits as we should work on childs.
     body: epic.yml
+  - name: Request
+    description: Customer success request.
+    body: request.yml
