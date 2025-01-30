@@ -6,7 +6,7 @@ body:
     validations:
       required: false
     attributes:
-      label: Dependencies
+      label: Dependencies (⚠️ should be done before)
       description: List other issues that should be done before
       placeholder: |
         - [ ] regmind-eu/...#
