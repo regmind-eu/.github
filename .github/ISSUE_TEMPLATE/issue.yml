@@ -58,6 +58,14 @@ body:
           - [ ] ...
           - [ ] ...
 
+  - type: textarea
+    id: marketingValue
+    attributes:
+      label: Marketing value
+      description: (⚠️ in French) Marketing value that will be communicated
+      placeholder: |
+          Exemple : "possibilité d'export des résultats de recherche", "Ajout du fond BaFin", ....
+          
   - type: markdown
     attributes:
       value: |
