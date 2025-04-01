@@ -1,5 +1,5 @@
 ____
-⚠️ Please paste the **LINEAR ISSUE URL** after **Ref** keyword (_the keyword `Ref` should be maintain_) ⚠️
+⚠️ Please paste the **LINEAR ISSUE URL** after **Fixes** keyword (_the keyword `Fixes` should be maintain_) ⚠️
 ____
 
-Ref 
+Fixes 
